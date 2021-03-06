@@ -1,0 +1,63 @@
+/*Exemplo de comentario*/
+p.final-pagina#rodape{
+    border-bottom: 1px solid black;
+    background-color: #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+#titulo{
+    border-bottom: 1px dashed black;
+    background-color: lightsalmon;
+    color: blue; /*A regra especifica prevalece na regra geral*/
+}
+
+p.promocao{
+    text-align: center;
+    background-color: yellowgreen;
+}
+h1{
+    color: yellow; /*regra css, todo "h1" vai sofrer essa regra*/
+    text-align: center;
+}
+
+p#descricao{
+    background-color: yellow;
+}
+
+p{
+    color: blue;
+}
+strong{
+    color:blueviolet;
+    background-color: orange;
+}
+.curso, .novo-curso, #contato{
+    background-color: aliceblue;
+}
+
+.novo-curso{
+    color: red;
+}
+
+/*.curso{
+    background-color:  aliceblue;
+}
+
+.novo-curso{
+    background-color: aliceblue;
+    color: red;
+}*/
+/*
+article p{
+    padding: 12px;
+}*/
+
+body #principal article section p.coordenadores{
+    text.align
+}
+
+article > p {
+    margin-left: 12 px;
+    margin-right: 12px;
+}
